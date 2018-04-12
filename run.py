@@ -48,6 +48,7 @@ def KnuthFive():
 
 if __name__ == "__main__":
     global code
+    
 
     # Create all 1296 possible Mastermind codes.
     allCodes = [tuple(x) for x in itertools.product(range(1,7), repeat=4)]
